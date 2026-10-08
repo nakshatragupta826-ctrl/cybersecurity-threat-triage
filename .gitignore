@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.template
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+
+# Local databases, logs, reports
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-journal
+*.log
+logs/
+reports/
+output/
+outputs/
+generated/
+*.pdf
+
+# Downloaded NVD feeds / datasets
+nvd-*.json
+nvd-*.json.gz
+data/nvd/
+feeds/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local dashboard backups
+dashboard_backup.py
+dashboard_backup_before_scheduler_fix.py
+
+# Local AI tool configuration
+.agents/.claude/
+
+# Local AI tool configuration
+.agents/.claude/
+.claude/
+.agents/
